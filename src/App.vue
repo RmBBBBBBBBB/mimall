@@ -22,6 +22,10 @@ export default {
     // storage.clear('abc','user')
     // console.log(storage.getItem("abc","user"))
 
+    this.axios.get("/user/login").then(res => {
+      console.log(res,'res')
+    })
+
   },
   methods:{
     

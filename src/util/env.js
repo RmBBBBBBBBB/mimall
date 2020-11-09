@@ -12,7 +12,7 @@ switch (process.env.NODE_ENV) {
     break;
 }
 
-console.log(baseURL,'env.js')
+// console.log(baseURL,'env.js')
 
 
 export default {

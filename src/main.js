@@ -7,18 +7,24 @@ import store from './store'
 import env from './util/env'
 
 
+const mock = true
+if(mock){
+  require('./mock/api')
+}
+
 //请求默认的 地址
 // axios.defaults.baseURL = '/api'
 
-axios.defaults.baseUrl = env.baseUrl
+// axios.defaults.baseUrl = env.baseUrl
 
-console.log(env.baseURL,'main.js')
+// console.log(env.baseURL,'main.js')
 
 //超时时间
 axios.defaults.timeout = 8000
 
 //接口 错误拦截
 axios.interceptors.response.use(function(response){
+  console.log(response,'response')
   let res = response.data;
   if(res.status == 0){
     return res.data
