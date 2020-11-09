@@ -1,9 +1,9 @@
 <template>
-  
+  <div>orderConfirm</div>
 </template>
 <script>
 export default {
-  name:'orderConfirm',  // 订单确认页面
+  name:'order-confirm',  // 订单确认页面
 }
 </script>
 <style lang="less" scoped>

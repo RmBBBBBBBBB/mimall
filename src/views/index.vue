@@ -1,9 +1,11 @@
 <template>
-  
+  <div>
+  index
+  </div>
 </template>
 <script>
 export default {
-  name:'index'
+  name:'index',
 }
 </script>
 <style lang="less" scoped>

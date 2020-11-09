@@ -1,9 +1,9 @@
 <template>
-  
+  <div>order-header</div>
 </template>
 <script>
 export default {
-  name:'detail',  // 商品详情页面
+  name:'order-header'
 }
 </script>
 <style lang="less" scoped>
