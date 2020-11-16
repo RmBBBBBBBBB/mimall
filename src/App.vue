@@ -22,9 +22,9 @@ export default {
     // storage.clear('abc','user')
     // console.log(storage.getItem("abc","user"))
 
-    this.axios.get("/user/login").then(res => {
-      console.log(res,'res')
-    })
+    // this.axios.get("/user/login").then(res => {
+    //   console.log(res,'res')
+    // })
 
   },
   methods:{
@@ -34,4 +34,5 @@ export default {
 }
 </script>
 <style>
+@import './assets/css/reset.scss'
 </style>
